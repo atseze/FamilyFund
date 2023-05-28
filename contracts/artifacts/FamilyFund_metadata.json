@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_membersCount",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_share",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_newMember",
+						"type": "address"
+					}
+				],
+				"name": "addMember",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "chooseWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payShare",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/FamilyFund.sol": "FamilyFund"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FamilyFund.sol": {
+			"keccak256": "0x458cbbe191baeb72e69e5ffa43af941fbc264c5d27f869b2207b6177d37e8a7b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://58bfa12c4376e2ad46558be21e0f7e2b3d6557dd69a3247d586439bf82fe72ff",
+				"dweb:/ipfs/QmZCVHtriCMUAzgWoqucDrgfhuYKyxJpxTBSZCptVQbS4y"
+			]
+		}
+	},
+	"version": 1
+}
