@@ -1,13 +1,14 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
+// This to test git commit
 contract FamilyFund {
     uint private share;
     uint8 private round;
     uint8 private membersCount;
     bool private isFundActive;
     address private owner;
-    address payable[] private members; //changed
+    address payable[] private members;
     address payable[] private remains;
     mapping(address => mapping(uint8 => bool)) private paidShares; //each user in each round
     mapping(address => uint8) private winners; //map each address to round of win
