@@ -1,4 +1,4 @@
-# FamilyFund
+# Family Fund
 This contract manages a simple family fund.
 
 The manager of the fund specifies the number of members and the share of the partnership.
